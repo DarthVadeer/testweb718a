@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">-->
+<web-app id="WebApp_ID">
+	<display-name>testweb</display-name>
+	
+			<servlet id="Servlet_1500210437289">
+		<servlet-name>PeopleAddAction</servlet-name>
+		<display-name>PeopleAddAction</display-name>
+		<description></description>
+		<servlet-class>action.PeopleAddAction</servlet-class>
+	</servlet>
+				<servlet id="Servlet_1500210437327">
+		<servlet-name>PeopleDeleteAction</servlet-name>
+		<display-name>PeopleDeleteAction</display-name>
+		<description></description>
+		<servlet-class>action.PeopleDeleteAction</servlet-class>
+	</servlet>
+				<servlet id="Servlet_1500210437332">
+		<servlet-name>PeopleInfoAction</servlet-name>
+		<display-name>PeopleInfoAction</display-name>
+		<description></description>
+		<servlet-class>action.PeopleInfoAction</servlet-class>
+	</servlet>
+				<servlet id="Servlet_1500210437333">
+		<servlet-name>PeopleQueryAction</servlet-name>
+		<display-name>PeopleQueryAction</display-name>
+		<description></description>
+		<servlet-class>action.PeopleQueryAction</servlet-class>
+	</servlet>
+				<servlet id="Servlet_1500210437334">
+		<servlet-name>PeopleUpdateAction</servlet-name>
+		<display-name>PeopleUpdateAction</display-name>
+		<description></description>
+		<servlet-class>action.PeopleUpdateAction</servlet-class>
+	</servlet>
+
+	
+	<servlet id="Servlet_1500210437335">
+		<servlet-name>PointInfoListAction</servlet-name>
+		<display-name>PointInfoListAction</display-name>
+		<description></description>
+		<servlet-class>action.PointInfoListAction</servlet-class>
+	</servlet>
+		<servlet id="Servlet_1500210437349">
+		<servlet-name>DepartAddAction</servlet-name>
+		<display-name>DepartAddAction</display-name>
+		<description></description>
+		<servlet-class>action.DepartAddAction</servlet-class>
+	</servlet>
+
+			<servlet id="Servlet_1500210437350">
+		<servlet-name>DepartDeleteAction</servlet-name>
+		<display-name>DepartDeleteAction</display-name>
+		<description></description>
+		<servlet-class>action.DepartDeleteAction</servlet-class>
+	</servlet>
+			<servlet id="Servlet_1500210437351">
+		<servlet-name>DepartQueryAction</servlet-name>
+		<display-name>DepartQueryAction</display-name>
+		<description></description>
+		<servlet-class>action.DepartQueryAction</servlet-class>
+	</servlet>
+				<servlet id="Servlet_1500210437365">
+		<servlet-name>DepartSubQueryAction</servlet-name>
+		<display-name>DepartSubQueryAction</display-name>
+		<description></description>
+		<servlet-class>action.DepartSubQueryAction</servlet-class>
+	</servlet>
+
+	<servlet id="Servlet_1500210437366">
+		<servlet-name>DepartUpdateAction</servlet-name>
+		<display-name>DepartUpdateAction</display-name>
+		<description></description>
+		<servlet-class>action.DepartUpdateAction</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1500210437367">
+		<servlet-name>PointEditPageAction</servlet-name>
+		<display-name>PointEditPageAction</display-name>
+		<description></description>
+		<servlet-class>action.PointEditPageAction</servlet-class>
+	</servlet>
+	
+	<servlet id="Servlet_1500210437380">
+		<servlet-name>PointDeleteAction</servlet-name>
+		<display-name>PointDeleteAction</display-name>
+		<description></description>
+		<servlet-class>action.PointDeleteAction</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1500210437381">
+		<servlet-name>PointAddAction</servlet-name>
+		<display-name>PointAddAction</display-name>
+		<description></description>
+		<servlet-class>action.PointAddAction</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1500210437382">
+		<servlet-name>LoginAction</servlet-name>
+		<display-name>LoginAction</display-name>
+		<description></description>
+		<servlet-class>action.LoginAction</servlet-class>
+	</servlet>
+
+	<servlet id="Servlet_1500210437397">
+		<servlet-name>LogoutAction</servlet-name>
+		<display-name>LogoutAction</display-name>
+		<description></description>
+		<servlet-class>action.LogoutAction</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1500210437396">
+		<servlet-name>RoadAddAction</servlet-name>
+		<display-name>RoadAddAction</display-name>
+		<description></description>
+		<servlet-class>action.RoadAddAction</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1500210437398">
+		<servlet-name>RoadDeleteAction</servlet-name>
+		<display-name>RoadDeleteAction</display-name>
+		<description></description>
+		<servlet-class>action.RoadDeleteAction</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1500210437412">
+		<servlet-name>RoadQueryAction</servlet-name>
+		<display-name>RoadQueryAction</display-name>
+		<description></description>
+		<servlet-class>action.RoadQueryAction</servlet-class>
+	</servlet>
+	<servlet id="Servlet_1500210437413">
+		<servlet-name>RoadUpdateAction</servlet-name>
+		<display-name>RoadUpdateAction</display-name>
+		<description></description>
+		<servlet-class>action.RoadUpdateAction</servlet-class>
+	</servlet>
+	
+	  <servlet id="Servlet_1500210437414">
+    <servlet-name>DepartGetbyUserAction</servlet-name>
+    <servlet-class>action.DepartGetbyUserAction</servlet-class>
+  </servlet>
+  <servlet id="Servlet_1500210437428">
+    <servlet-name>DepartMenuAction</servlet-name>
+    <servlet-class>action.DepartMenuAction</servlet-class>
+  </servlet>
+    
+<servlet id="Servlet_1500210437433">
+    <servlet-name>RoleAddAction</servlet-name>
+    <servlet-class>action.RoleAddAction</servlet-class>
+  </servlet>
+   <servlet id="Servlet_1500210437434">
+    <servlet-name>RoleDeleteAction</servlet-name>
+    <servlet-class>action.RoleDeleteAction</servlet-class>
+  </servlet>
+  
+      <servlet id="Servlet_1500210437435">
+    <servlet-name>RoleQueryAction</servlet-name>
+    <servlet-class>action.RoleQueryAction</servlet-class>
+  </servlet>
+   <servlet id="Servlet_1500210437436">
+    <servlet-name>RoleUpdateAction</servlet-name>
+    <servlet-class>action.RoleUpdateAction</servlet-class>
+  </servlet>
+     <servlet id="Servlet_1500210437449">
+    <servlet-name>DepartSubMenuAction</servlet-name>
+    <servlet-class>action.DepartSubMenuAction</servlet-class>
+  </servlet>
+     <servlet id="Servlet_1500210437450">
+     	<servlet-name>RoleQueryAllAction</servlet-name>
+     	<display-name>RoleQueryAllAction</display-name>
+     	<description></description>
+     	<servlet-class>action.RoleQueryAllAction</servlet-class>
+     </servlet>
+     <servlet id="Servlet_1500210437465">
+     	<servlet-name>RoleListAction</servlet-name>
+     	<display-name>RoleListAction</display-name>
+     	<description></description>
+     	<servlet-class>action.RoleListAction</servlet-class>
+     </servlet>
+          <servlet id="Servlet_1500210437466">
+     	<servlet-name>EquipAddAction</servlet-name>
+     	<display-name>EquipAddAction</display-name>
+     	<description></description>
+     	<servlet-class>action.EquipAddAction</servlet-class>
+     </servlet>
+          <servlet id="Servlet_1500210437467">
+     	<servlet-name>EquipQueryAction</servlet-name>
+     	<display-name>EquipQueryAction</display-name>
+     	<description></description>
+     	<servlet-class>action.EquipQueryAction</servlet-class>
+     </servlet>
+          <servlet id="Servlet_1500210437468">
+     	<servlet-name>EquipUpdateAction</servlet-name>
+     	<display-name>EquipUpdateAction</display-name>
+     	<description></description>
+     	<servlet-class>action.EquipUpdateAction</servlet-class>
+     </servlet>
+          <servlet id="Servlet_1500210437481">
+          	<servlet-name>EquipListAction</servlet-name>
+          	<display-name>EquipListAction</display-name>
+          	<description></description>
+          	<servlet-class>action.EquipListAction</servlet-class>
+          </servlet>
+          <servlet id="Servlet_1500210437482">
+          	<servlet-name>PointListAction</servlet-name>
+          	<display-name>PointListAction</display-name>
+          	<description></description>
+          	<servlet-class>action.PointListAction</servlet-class>
+          </servlet>
+          <servlet id="Servlet_1500210437483">
+          	<servlet-name>RoadListAction</servlet-name>
+          	<display-name>RoadListAction</display-name>
+          	<description></description>
+          	<servlet-class>action.RoadListAction</servlet-class>
+          </servlet>
+                    <servlet>
+          	<servlet-name>CarQueryAction</servlet-name>
+          	<display-name>CarQueryAction</display-name>
+          	<description></description>
+          	<servlet-class>action.CarQueryAction</servlet-class>
+          </servlet>
+                    <servlet>
+          	<servlet-name>CarInfoAction</servlet-name>
+          	<display-name>CarInfoAction</display-name>
+          	<description></description>
+          	<servlet-class>action.CarInfoAction</servlet-class>
+          </servlet>
+                    <servlet>
+          	<servlet-name>CarOrbitAction</servlet-name>
+          	<display-name>CarOrbitAction</display-name>
+          	<description></description>
+          	<servlet-class>action.CarOrbitAction</servlet-class>
+          </servlet>
+                    <servlet>
+                    	<servlet-name>CarInfoListAction</servlet-name>
+                    	<display-name>CarInfoListAction</display-name>
+                    	<description></description>
+                    	<servlet-class>action.CarInfoListAction</servlet-class>
+                    </servlet>
+                    <servlet>
+                    	<servlet-name>PointInfoByIdAction</servlet-name>
+                    	<display-name>PointInfoByIdAction</display-name>
+                    	<description></description>
+                    	<servlet-class>action.PointInfoByIdAction</servlet-class>
+                    </servlet>
+                    <servlet>
+                    	<servlet-name>CarPathViewAction</servlet-name>
+                    	<display-name>CarPathViewAction</display-name>
+                    	<description></description>
+                    	<servlet-class>action.CarPathViewAction</servlet-class>
+                    </servlet>
+     
+  
+  
+  
+	<servlet-mapping id="ServletMapping_1500210436924">
+		<servlet-name>PointInfoListAction</servlet-name>
+		<url-pattern>/Views/Frame/PointInfoListAction</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping id="ServletMapping_1500210437024">
+		<servlet-name>PointInfoListAction</servlet-name>
+		<url-pattern>/PointInfoListAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437040">
+		<servlet-name>PointEditPageAction</servlet-name>
+		<url-pattern>/PointEditPageAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437041">
+		<servlet-name>PointDeleteAction</servlet-name>
+		<url-pattern>/PointDeleteAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437055">
+		<servlet-name>PointAddAction</servlet-name>
+		<url-pattern>/PointAddAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437071">
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/LoginAction</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping id="ServletMapping_1500210437072">
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/Views/Frame/LoginAction</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping id="ServletMapping_1500210437087">
+		<servlet-name>LogoutAction</servlet-name>
+		<url-pattern>/Views/Frame/LogoutAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437093">
+		<servlet-name>RoadAddAction</servlet-name>
+		<url-pattern>/RoadAddAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437094">
+		<servlet-name>RoadDeleteAction</servlet-name>
+		<url-pattern>/RoadDeleteAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437109">
+		<servlet-name>RoadQueryAction</servlet-name>
+		<url-pattern>/RoadQueryAction</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping id="ServletMapping_1500210437110">
+		<servlet-name>RoadQueryAction</servlet-name>
+		<url-pattern>/Views/Frame/RoadQueryAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping id="ServletMapping_1500210437111">
+		<servlet-name>RoadUpdateAction</servlet-name>
+		<url-pattern>/RoadUpdateAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437124">
+		<servlet-name>DepartAddAction</servlet-name>
+		<url-pattern>/DepartAddAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437125">
+		<servlet-name>DepartDeleteAction</servlet-name>
+		<url-pattern>/DepartDeleteAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437126">
+		<servlet-name>DepartQueryAction</servlet-name>
+		<url-pattern>/DepartQueryAction</url-pattern>
+	</servlet-mapping>
+		<servlet-mapping id="ServletMapping_1500210437140">
+		<servlet-name>DepartQueryAction</servlet-name>
+		<url-pattern>/Views/Frame/DepartQueryAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437141">
+		<servlet-name>DepartSubQueryAction</servlet-name>
+		<url-pattern>/DepartSubQueryAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping id="ServletMapping_1500210437142">
+		<servlet-name>DepartUpdateAction</servlet-name>
+		<url-pattern>/DepartUpdateAction</url-pattern>
+	</servlet-mapping>
+	 <servlet-mapping id="ServletMapping_1500210437156">
+    <servlet-name>DepartGetbyUserAction</servlet-name>
+    <url-pattern>/DepartGetbyUserAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping id="ServletMapping_1500210437158">
+    <servlet-name>PeopleInfoAction</servlet-name>
+    <url-pattern>/PeopleInfoAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping id="ServletMapping_1500210437157">
+    <servlet-name>DepartMenuAction</servlet-name>
+    <url-pattern>/DepartMenuAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping id="ServletMapping_1500210437171">
+    <servlet-name>DepartMenuAction</servlet-name>
+    <url-pattern>/Views/Frame/DepartMenuAction</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping id="ServletMapping_1500210437172">
+    <servlet-name>PeopleAddAction</servlet-name>
+    <url-pattern>/PeopleAddAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping id="ServletMapping_1500210437173">
+    <servlet-name>PeopleDeleteAction</servlet-name>
+    <url-pattern>/PeopleDeleteAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping id="ServletMapping_1500210437174">
+    <servlet-name>PeopleQueryAction</servlet-name>
+    <url-pattern>/PeopleQueryAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping id="ServletMapping_1500210437189">
+    <servlet-name>PeopleUpdateAction</servlet-name>
+    <url-pattern>/PeopleUpdateAction</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping id="ServletMapping_1500210437194">
+    <servlet-name>PeopleUpdateAction</servlet-name>
+    <url-pattern>/Views/Frame/PeopleUpdateAction</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping id="ServletMapping_1500210437198">
+    <servlet-name>PeopleInfoAction</servlet-name>
+    <url-pattern>/Views/Frame/PeopleInfoAction</url-pattern>
+  </servlet-mapping>
+ 
+  
+       <servlet-mapping id="ServletMapping_1500210437201">
+    <servlet-name>RoleAddAction</servlet-name>
+    <url-pattern>/RoleAddAction</url-pattern>
+  </servlet-mapping>
+
+    <servlet-mapping id="ServletMapping_1500210437204">
+    <servlet-name>RoleDeleteAction</servlet-name>
+    <url-pattern>/RoleDeleteAction</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping id="ServletMapping_1500210437207">
+    <servlet-name>RoleQueryAction</servlet-name>
+    <url-pattern>/RoleQueryAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping id="ServletMapping_1500210437210">
+    <servlet-name>RoleUpdateAction</servlet-name>
+    <url-pattern>/RoleUpdateAction</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping id="ServletMapping_1500210437212">
+    <servlet-name>DepartSubMenuAction</servlet-name>
+    <url-pattern>/DepartSubMenuAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping id="ServletMapping_1500210437214">
+  	<servlet-name>RoleQueryAllAction</servlet-name>
+  	<url-pattern>/RoleQueryAllAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping id="ServletMapping_1500210437218">
+  	<servlet-name>RoleListAction</servlet-name>
+  	<url-pattern>/RoleListAction</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping id="ServletMapping_1500210437221">
+  	<servlet-name>RoleListAction</servlet-name>
+  	<url-pattern>/Views/Frame/RoleListAction</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping id="ServletMapping_1500210437225">
+  	<servlet-name>EquipAddAction</servlet-name>
+  	<url-pattern>/EquipAddAction</url-pattern>
+  	
+  </servlet-mapping>
+        <servlet-mapping id="ServletMapping_1500210437228">
+  	<servlet-name>EquipAddAction</servlet-name>
+  	<url-pattern>/Views/Frame/EquipAddAction</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping id="ServletMapping_1500210437232">
+  	<servlet-name>EquipUpdateAction</servlet-name>
+  	<url-pattern>/EquipUpdateAction</url-pattern>
+  </servlet-mapping>
+        <servlet-mapping id="ServletMapping_1500210437235">
+  	<servlet-name>EquipUpdateAction</servlet-name>
+  	<url-pattern>/Views/Frame/EquipUpdateAction</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping id="ServletMapping_1500210437242">
+  	<servlet-name>EquipQueryAction</servlet-name>
+  	<url-pattern>/EquipQueryAction</url-pattern>
+  </servlet-mapping>
+        <servlet-mapping id="ServletMapping_1500210437239">
+  	<servlet-name>EquipQueryAction</servlet-name>
+  	<url-pattern>/Views/Frame/EquipQueryAction</url-pattern>
+  </servlet-mapping>
+      <servlet-mapping id="ServletMapping_1500210437245">
+      	<servlet-name>EquipListAction</servlet-name>
+      	<url-pattern>/Views/Frame/EquipListAction</url-pattern>
+      </servlet-mapping>
+      <servlet-mapping id="ServletMapping_1500210437250">
+      	<servlet-name>PointListAction</servlet-name>
+      	<url-pattern>/PointListAction</url-pattern>
+      </servlet-mapping>
+            <servlet-mapping id="ServletMapping_1500210437253">
+      	<servlet-name>PointListAction</servlet-name>
+      	<url-pattern>/Views/Frame/PointListAction</url-pattern>
+      </servlet-mapping>
+            <servlet-mapping id="ServletMapping_1500210437256">
+            	<servlet-name>RoadListAction</servlet-name>
+            	<url-pattern>/RoadListAction</url-pattern>
+            </servlet-mapping>
+                        <servlet-mapping>
+            	<servlet-name>CarOrbitAction</servlet-name>
+            	<url-pattern>/Views/Frame/CarOrbitAction</url-pattern>
+            </servlet-mapping>
+                                    <servlet-mapping>
+            	<servlet-name>CarOrbitAction</servlet-name>
+            	<url-pattern>/CarOrbitAction</url-pattern>
+            </servlet-mapping>
+                                    <servlet-mapping>
+            	<servlet-name>CarQueryAction</servlet-name>
+            	<url-pattern>/Views/Frame/CarQueryAction</url-pattern>
+            </servlet-mapping>
+                                    <servlet-mapping>
+            	<servlet-name>CarQueryAction</servlet-name>
+            	<url-pattern>/CarQueryAction</url-pattern>
+            </servlet-mapping>
+                                    <servlet-mapping>
+            	<servlet-name>CarInfoAction</servlet-name>
+            	<url-pattern>/Views/Frame/CarInfoAction</url-pattern>
+            </servlet-mapping>
+                                    <servlet-mapping>
+            	<servlet-name>CarInfoAction</servlet-name>
+            	<url-pattern>/CarInfoAction</url-pattern>
+            </servlet-mapping>
+                                    <servlet-mapping>
+                                    	<servlet-name>CarInfoListAction</servlet-name>
+                                    	<url-pattern>/Views/Frame/CarInfoListAction</url-pattern>
+                                    </servlet-mapping>
+                                    <servlet-mapping>
+                                    	<servlet-name>CarInfoListAction</servlet-name>
+                                    	<url-pattern>/CarInfoListAction</url-pattern>
+                                    </servlet-mapping>
+                                    <servlet-mapping>
+                                    	<servlet-name>PointInfoByIdAction</servlet-name>
+                                    	<url-pattern>/PointInfoByIdAction</url-pattern>
+                                    </servlet-mapping>
+                                       <servlet-mapping>
+                                    	<servlet-name>PointInfoByIdAction</servlet-name>
+                                    	<url-pattern>/Views/Frame/PointInfoByIdAction</url-pattern>
+                                    </servlet-mapping>
+                                       <servlet-mapping>
+                                       	<servlet-name>CarPathViewAction</servlet-name>
+                                       	<url-pattern>/CarPathViewAction</url-pattern>
+                                       </servlet-mapping>
+                                             <servlet-mapping>
+                                       	<servlet-name>CarPathViewAction</servlet-name>
+                                       	<url-pattern>/Views/Frame/CarPathViewAction</url-pattern>
+                                       </servlet-mapping>
+                             <servlet>
+                                       	<servlet-name>AlarmAllQueryAction</servlet-name>
+          	<display-name>AlarmAllQueryAction</display-name>
+          	<description></description>
+          	<servlet-class>action.AlarmAllQueryAction</servlet-class>
+          </servlet>
+                                     <servlet>
+                                       	<servlet-name>AlarmQueryAction</servlet-name>
+          	<display-name>AlarmQueryAction</display-name>
+          	<description></description>
+          	<servlet-class>action.AlarmQueryAction</servlet-class>
+          </servlet>
+                                     <servlet>
+                                       	<servlet-name>BlackAllQueryAction</servlet-name>
+          	<display-name>BlackAllQueryAction</display-name>
+          	<description></description>
+          	<servlet-class>action.BlackAllQueryAction</servlet-class>
+          </servlet>
+                                     <servlet>
+                                       	<servlet-name>BlackQueryAction</servlet-name>
+          	<display-name>BlackQueryAction</display-name>
+          	<description></description>
+          	<servlet-class>action.BlackQueryAction</servlet-class>
+          </servlet>
+                                     <servlet>
+                                     	<description>
+                                     	</description>
+                                     	<display-name>BlackVerifyQueryAction</display-name>
+                                     	<servlet-name>BlackVerifyQueryAction</servlet-name>
+                                     	<servlet-class>action.BlackVerifyQueryAction</servlet-class>
+                                     </servlet>
+                                     <servlet>
+                                     	<description>
+                                     	</description>
+                                     	<display-name>BlackVerifyStartAction</display-name>
+                                     	<servlet-name>BlackVerifyStartAction</servlet-name>
+                                     	<servlet-class>action.BlackVerifyStartAction</servlet-class>
+                                     </servlet>
+                                     <servlet>
+                                     	<description>
+                                     	</description>
+                                     	<display-name>BlackApplyAction</display-name>
+                                     	<servlet-name>BlackApplyAction</servlet-name>
+                                     	<servlet-class>action.BlackApplyAction</servlet-class>
+                                     </servlet>
+                                     <servlet>
+                                     	<description>
+                                     	</description>
+                                     	<display-name>BlackApplyStartAction</display-name>
+                                     	<servlet-name>BlackApplyStartAction</servlet-name>
+                                     	<servlet-class>action.BlackApplyStartAction</servlet-class>
+                                     </servlet>
+                                     <servlet>
+                                     	<description>
+                                     	</description>
+                                     	<display-name>BlackInfoAction</display-name>
+                                     	<servlet-name>BlackInfoAction</servlet-name>
+                                     	<servlet-class>action.BlackInfoAction</servlet-class>
+                                     </servlet>
+                                      <servlet-mapping>
+                                    	<servlet-name>AlarmAllQueryAction</servlet-name>
+                                    	<url-pattern>/Views/Frame/AlarmAllQueryAction</url-pattern>
+                                    </servlet-mapping>
+                                     <servlet-mapping>
+                                    	<servlet-name>AlarmAllQueryAction</servlet-name>
+                                    	<url-pattern>/AlarmAllQueryAction</url-pattern>
+                                    </servlet-mapping>
+                                     <servlet-mapping>
+                                    	<servlet-name>AlarmQueryAction</servlet-name>
+                                    	<url-pattern>/Views/Frame/AlarmQueryAction</url-pattern>
+                                    </servlet-mapping>
+                                                    
+                                          <servlet-mapping>
+                                    	<servlet-name>AlarmQueryAction</servlet-name>
+                                    	<url-pattern>/AlarmQueryAction</url-pattern>
+                                    </servlet-mapping>
+                                     <servlet-mapping>
+                                    	<servlet-name>BlackAllQueryAction</servlet-name>
+                                    	<url-pattern>/Views/Frame/BlackAllQueryAction</url-pattern>
+                                    </servlet-mapping>
+                                          <servlet-mapping>
+                                    	<servlet-name>BlackAllQueryAction</servlet-name>
+                                    	<url-pattern>/BlackAllQueryAction</url-pattern>
+                                    </servlet-mapping>
+                                     <servlet-mapping>
+                                    	<servlet-name>BlackQueryAction</servlet-name>
+                                    	<url-pattern>/Views/Frame/BlackQueryAction</url-pattern>
+                                    </servlet-mapping>
+                                          <servlet-mapping>
+                                    	<servlet-name>BlackQueryAction</servlet-name>
+                                    	<url-pattern>/BlackQueryAction</url-pattern>
+                                    </servlet-mapping>
+                                          <servlet-mapping>
+                                          	<servlet-name>BlackVerifyQueryAction</servlet-name>
+                                          	<url-pattern>/BlackVerifyQueryAction</url-pattern>
+                                          </servlet-mapping>
+                                          
+                                          <servlet-mapping>
+                                          	<servlet-name>BlackVerifyStartAction</servlet-name>
+                                          	<url-pattern>/BlackVerifyStartAction</url-pattern>
+                                          </servlet-mapping>
+                                          <servlet-mapping>
+                                          	<servlet-name>BlackApplyAction</servlet-name>
+                                          	<url-pattern>/BlackApplyAction</url-pattern>
+                                          </servlet-mapping>
+                                          <servlet-mapping>
+                                          	<servlet-name>BlackApplyStartAction</servlet-name>
+                                          	<url-pattern>/Views/Frame/BlackApplyStartAction</url-pattern>
+                                          </servlet-mapping>
+                                          <servlet-mapping>
+                                          	<servlet-name>BlackInfoAction</servlet-name>
+                                          	<url-pattern>/BlackInfoAction</url-pattern>
+                                          </servlet-mapping>
+   
+          
+           
+                                       
+            
+					 <filter>
+  					 <filter-name>Login</filter-name>
+ 					 <filter-class>Filter.LoginFilter</filter-class>
+					 </filter>
+            			 <filter-mapping>
+  			 <filter-name>Login</filter-name>
+  			 <url-pattern>/*</url-pattern>
+			 </filter-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,29 @@
+.container.header1{
+  padding-right:0;
+  padding-left:0;
+  margin-right:0;
+  margin-left:0;
+  width:initial;
+}
+
+div.centerMove{
+  text-align:center;
+}
+
+i.glyphicon.glyphicon-search.float{
+  position:relative;
+  left:150px;
+}
+
+button#roarGenerate.btn.btn-default.position{
+  text-align:center;
+}
+
+div.centerPosition{
+  text-align:center;
+}
+
+button#roarGenerate.btn.btn-default{
+  text-align:center;
+}
+
